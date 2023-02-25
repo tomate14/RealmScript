@@ -1,0 +1,13 @@
+div#edificiosDiv, div#transportesDiv {
+    position: relative;
+    display: flex;
+    width: 50%;
+}
+
+div#divLevel, .statsGenerales{
+    width: 20%;
+}
+
+div#datosCuenta {
+    display: flex;
+}

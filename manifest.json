@@ -1,0 +1,19 @@
+{
+    "name": "Action API Demo",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_title": "Default Title",
+      "default_popup": "popups/popup.html",
+      "default_icon": {
+        "128": "mundo.png"
+      }
+    },
+    "permissions": ["tabs"],
+    "icons": {
+      "128": "mundo.png"
+    }
+  }

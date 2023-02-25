@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script defer src="index.js"></script>
+    <link rel="stylesheet" href="../third-party/awsm/awsm.css" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <main>        
+        <div class="spaced">
+           <input placeholder="Ingresar el token" type="text" id="tokenInput" />
+           <button id="tokenButton">Get data</button>
+        </div>        
+    </main>
+    <div id="datosCuenta">
+        <h2 class="statsGenerales" id="recursosPorMinutos"> Recursos por minuto: </h2>
+        <h2 class="statsGenerales" id="RLM"></h2>
+        <h2 class="statsGenerales" id="titanium"></h2>
+        <h2 class="statsGenerales" id="LimiteDeAlmacen"></h2>
+    </div>
+    <div id="transportesDiv">
+        <div id="divLevel">
+            <h2>Nivel de Camiones:</h2>
+            <ol id="listaCamiones"></ol>
+        </div>
+        <div id="divLevel">
+            <h2>Nivel de Aviones:</h2>
+            <ol id="listaAviones"></ol>
+        </div>
+        <div id="divLevel">
+            <h2>Nivel de Barcos:</h2>
+            <ol id="listaBarcos"></ol>
+        </div>
+    </div>
+    <div id="edificiosDiv">
+        <div id="divLevel">
+            <div>
+                <h3>Nivel de Almacenes:</h3>
+                <ol id="listaAlmacenes"></ol>
+            </div>
+        </div>
+        <div id="divLevel">
+            <div>
+                <h3>Nivel de Fabricas:</h3>
+                <ol id="listaFabricas"></ol>
+            </div>
+        </div>
+    </div>    
+  </body>
+</html>
