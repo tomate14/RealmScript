@@ -1,13 +1,16 @@
 div#edificiosDiv, div#transportesDiv {
     position: relative;
     display: flex;
-    width: 50%;
+}
+div#divLevel {
+    width: 20%;
 }
 
-div#divLevel, .statsGenerales{
-    width: 20%;
+.statsGenerales{
+    width: inherit;
 }
 
 div#datosCuenta {
     display: flex;
+    justify-content: space-around;
 }

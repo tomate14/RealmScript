@@ -30,7 +30,7 @@ document.getElementById('tokenButton').addEventListener('click', (_event) => {
     myHeaders.append("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36");
     myHeaders.append("Content-Type", "application/json");
     myHeaders.append("Host", "realmserver.azurewebsites.net");
-    myHeaders.append("PlayerID", "7148");
+    myHeaders.append("PlayerID", document.getElementById("playerIdInput").value);
     myHeaders.append("Referer", "https://play.realmnft.io/");
     myHeaders.append("ClientVersion", "7.0.0");
     myHeaders.append("Cookie", "ARRAffinity=9d7c7f91697d0127cf62a671604c0105a87a17711ef5caf56fe8a4941fca5dbf; ARRAffinitySameSite=9d7c7f91697d0127cf62a671604c0105a87a17711ef5caf56fe8a4941fca5dbf");
