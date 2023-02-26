@@ -7,4 +7,4 @@
 7) Pegarlos en los inputs.
 8) Darle click a buscar.
 
-instrucciones.png
+![instrucciones](https://user-images.githubusercontent.com/26417708/221387654-46270730-0839-4d0f-8b6a-5f2f81c20ff8.png)
