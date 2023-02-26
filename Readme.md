@@ -1,6 +1,9 @@
 Como instalar:
-Agarrar la carpeta completa, click en los tres puntos arriba a la izquierda del chrome.
+
+Click en los tres puntos arriba a la izquierda del chrome.
 Mas herramientas --> extensiones.
+![image](https://user-images.githubusercontent.com/26417708/221388859-cca16353-3bb7-4c2a-a0e2-5d25c51cee0f.png)
+
 Arrastrar la carpeta completa, y se instalara.
 
 
